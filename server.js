@@ -4,7 +4,7 @@ const https = require("https");
 const fs = require("fs");
 const path = require("path");
 
-const HTTP_PORT = 80;
+const HTTP_PORT = 8080;
 const HTTPS_PORT = 8443;
 
 const options = {
