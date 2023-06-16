@@ -22,7 +22,10 @@ app.get("/", function (request, response) {
 });
 
 // Create an HTTP server.
-http.createServer(app).listen(HTTP_PORT);
+// http.createServer(app).listen(HTTP_PORT);
+app.listen(HTTP_PORT, () => {
+  console.log("잘된다.");
+});
 
 // Create an HTTPS server.
-https.createServer(options, app).listen(HTTPS_PORT);
+// https.createServer(options, app).listen(HTTPS_PORT);
